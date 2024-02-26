@@ -3,20 +3,32 @@
 
 format: jb-book
 root: index
-chapters:
-  - file: book/markdown
-  - file: book/notebooks
-  - file: book/bibliography
-
-# Or you organize the TOC by parts
-
-# parts:
-#   - caption: Chapters
-#     numbered: true
-#     maxdepth: 2
-#     chapters:
-#       - file: book/markdown
-#       - file: book/notebooks
-#   - caption: Appendices
-#     chapters:
-#       - file: book/bibliography
+parts:
+  - caption: Course Informations
+    numbered: true
+    # maxdepth: 2
+    chapters:
+      - file: book/course-info/general
+      - file: book/course-info/course_author
+      - file: book/course-info/acknowledgements
+      - file: book/course-info/objectives
+      - file: book/course-info/requirements
+      - file: book/course-info/environment
+      - file: book/course-info/resources
+      - file: book/course-info/licences
+      - file: book/course-info/faq   
+  - caption: Lesson1
+    numbered: true
+    chapters:
+      - file: book/lessons/lesson1/overview
+  - caption: Lesson2
+    numbered: true
+    chapters:
+      - file: book/lessons/lesson2/overview
+  - caption: Lesson3  
+    numbered: true
+    chapters:
+      - file: book/lessons/lesson3/overview
+  - caption: Appendices
+    chapters:
+      - file: book/bibliography
