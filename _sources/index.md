@@ -1,7 +1,12 @@
-# Welcome to your Jupyter Book
+# Introduction to Spatial Data Science
 
 This is a small sample book to give you a feel for how book content is
 structured.
+
+![banner](banner.jpg)
+
+```{tableofcontents}
+```
 
 :::{note}
 Here is a note!
